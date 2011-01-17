@@ -37,4 +37,8 @@ $(function(){
 
 	} );
 
+	$('#result').click( function(){
+		$(this).select();
+	} );
+
 });

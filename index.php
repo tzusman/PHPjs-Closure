@@ -22,7 +22,7 @@
       <input tabindex="2" type="submit" value="Do it" />
     </form>
 
-    <textarea tabindex="3" id="result" disabled="disabled"> </textarea>
+    <textarea tabindex="3" id="result" > </textarea>
 
     <div id="street_cred">
       Orchestrated by <a href="http://toddzusman.com">Todd Zusman</a>
