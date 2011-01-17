@@ -57,7 +57,6 @@ body { overflow-y: scroll; }
 
 #street_cred {
 	font-size: 12px;
-	text-align: center;
 	color: #333;
 	border-top: 1px solid #CCC;
 	margin-top: 20px;
@@ -68,3 +67,7 @@ body { overflow-y: scroll; }
 	font-style: italic;
 }
 
+#street_cred .source {
+	font-style: normal;
+	float: right;
+}

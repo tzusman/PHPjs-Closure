@@ -18,14 +18,15 @@
 
     <form id="function">
       <label>Enter PHP Function:</label>
-      <input type="text" />
-      <input type="submit" value="Do it" />
+      <input tabindex="1" type="text" />
+      <input tabindex="2" type="submit" value="Do it" />
     </form>
 
-    <textarea id="result" disabled="disabled"> </textarea>
+    <textarea tabindex="3" id="result" disabled="disabled"> </textarea>
 
     <div id="street_cred">
       Orchestrated by <a href="http://toddzusman.com">Todd Zusman</a>
+			<a class="source" href="https://github.com/toddzinc/PHPjs-Closure">source on Github</a>
     </div>
 
   </div>
