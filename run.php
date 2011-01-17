@@ -1,6 +1,6 @@
 <?
 
-	$function = array_key_exists( 'fcn', $_POST ) ? $_POST['fcn'] : null;
+	$function = array_key_exists( 'fcn', $_POST ) ? strip_tags($_POST['fcn']) : null;
 	$function = trim( $function );
 	$function = strtolower( $function );
 	$function = str_replace( ' ', '_', $function );
