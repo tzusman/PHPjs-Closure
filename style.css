@@ -47,8 +47,12 @@ body { overflow-y: scroll; }
 #result {
 	width: 100%;
 	resize: none;
-	height: 300px;
 	border: 1px solid #ccc;
+	padding: 5px;
+	font-size: 14px;
+	font-family: 'Courier New', 'Courier', 'Arial';
+	height: 200px;
+	overflow-y: auto;
 }
 
 #street_cred {

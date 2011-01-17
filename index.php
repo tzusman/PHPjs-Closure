@@ -1,11 +1,4 @@
-<?
-
-  if ( count($_POST) > 0 ) {
-
-
-  }
-
-?><!DOCTYPE html> 
+<!DOCTYPE html> 
 <html> 
  <head> 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
@@ -29,7 +22,7 @@
       <input type="submit" value="Do it" />
     </form>
 
-    <textarea id="result" style="display: none;"> </textarea>
+    <textarea id="result" disabled="disabled"> </textarea>
 
     <div id="street_cred">
       Orchestrated by <a href="http://toddzusman.com">Todd Zusman</a>

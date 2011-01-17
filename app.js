@@ -23,7 +23,7 @@ $(function(){
 
 		_gaq.push( ['_trackEvent', 'PHPjs', 'Compile', state] );
 		
-		$('#result').fadeOut();
+		$('#result').css( 'opacity', 0.6 );
 
 		var data = {};
 		data.fcn = state;
@@ -31,7 +31,7 @@ $(function(){
 		$('#function input[type=submit]').val( 'Loading' );
 		$.post( 'run.php', data, function(resp){
 			$('#function input[type=submit]').val( 'Do It' );
-			$('#result').stop().show();
+			$('#result').css( 'opacity', 1 );
 			$('#result').val( resp ).select();
 		} );
 
